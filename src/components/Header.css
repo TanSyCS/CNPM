@@ -1,0 +1,80 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0346aa;
+    width: 100%;
+  }
+  
+  .header-left-section {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+  
+  .header-right-section {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: flex-end;
+    margin-right: 50px; /* Adjust the margin as needed */
+  }
+  
+  .header-logo {
+    margin-left: 20px; /* Adjust the margin as needed */
+  }
+  
+  .header-nav-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-grow: 1; /* Allow the flex container to grow and fill available space */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+  }
+  
+  .header-nav-links a,
+  .header-left-section a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header-right-section a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header-text {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+  }
+
+.header-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.header-btn:hover {
+  opacity: 0.8; /* Reduce opacity when hovered */
+}
+
+
+
+  
