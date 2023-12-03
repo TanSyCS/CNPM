@@ -1,0 +1,47 @@
+/* Menu.css */
+
+.side-box {
+    width: 240px;
+    height: auto;
+    background-color: #76ADFF;
+
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    display: flex; /* makes the side box a flex container */
+    flex-direction: column; /* aligns the items vertically */
+    align-items: center; /* centers the items horizontally */
+}
+
+.side-box a {
+    color: black;
+    text-decoration: none;
+}
+
+.side-box p {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 0
+}
+
+
+.side-box-avatar-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.side-box-button {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.side-box-footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: auto;
+}
+
