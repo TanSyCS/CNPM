@@ -2,8 +2,7 @@
   background-color: #0346aa;
   height: 100%;
   display: flex;
-  width: auto;
-  padding: 20px;
+  width: 100%;
   .align {
     display: flex;
     flex-direction: row;
