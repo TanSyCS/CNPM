@@ -38,9 +38,7 @@ function Footer() {
         </div>
         <div className="div3">
           <p id="hl">Liên hệ</p>
-          <p id="Tp1">
-            Cơ sở 1: 268 Lý Thường Kiệt, Phường 14, Quận 10, TP.HCM
-          </p>
+          <p id="Tp">Cơ sở 1: 268 Lý Thường Kiệt, Phường 14, Quận 10, TP.HCM</p>
           <p id="Tp">
             Cơ sở 2: Khu phố Tân Lập, Phường Đông Hòa, Tp. Dĩ An, Tỉnh Bình
             Dương

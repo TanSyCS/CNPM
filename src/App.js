@@ -1,11 +1,8 @@
-//import LoginPage from "./pages/LoginPage";
-//import WelcomePage from "./pages/WelcomePage";
+import WelcomePage from "./pages/WelcomePage";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
+import FPPage from "./pages/FPPage";
 import MainPage from "./pages/MainPage";
-// App.js
-import React from "react";
-import "./App.css";
-import StudentInfo from "./NA/student_info";
-
 function App() {
   return (
     <div className="App">
