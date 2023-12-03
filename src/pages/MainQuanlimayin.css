@@ -1,0 +1,65 @@
+.Main
+{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    width: var(--primary-width);
+    justify-content: space-between;
+    background-color: antiquewhite;
+    min-height: 100vh; /*full chiều dài*/
+    display: flex;
+    flex: 1; /* Allow the main content to grow and take remaining space */
+}
+    
+        /*.Form1 {
+                position: absolute;
+                top: 230px; 
+                left: 400px; 
+                font-family: Arial;
+                color: 
+rgb(49, 49, 138);
+        }
+        .Form2 {
+                position: absolute;
+                top: 230px;
+                left: 1090px;
+                font-family: Arial;
+                color: 
+rgb(49, 49, 138);
+         }
+         .Form3 {
+                position: absolute;
+                top: 230px;
+                left: 1780px;
+                font-family: Arial;
+                color: 
+rgb(49, 49, 138);
+         }
+form{
+        background-color: rgb(255, 0, 64);
+}*/
+.schedule,
+.history {
+  margin-bottom: 50px;
+  height: 23px;
+}
+        .Table {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                margin: auto;
+      }
+      .search {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        margin-top: 25px;
+      }
+      .row {
+        margin-left: 71px;
+        justify-content: center;
+      }
