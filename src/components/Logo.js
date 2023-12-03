@@ -1,7 +1,7 @@
 import "./Logo.css";
 function Logo() {
   return (
-    <div>
+    <div className="containerLogo">
       <img
         src={require("../assets/images/bku.svg").default}
         alt="logo"

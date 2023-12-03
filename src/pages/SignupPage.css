@@ -1,49 +1,44 @@
-.login_page {
+.container {
   display: flex;
+  background-image: url(../assets/images/background.png);
   height: 100%;
   width: 100%;
-  background-image: url(../assets/images/background.png);
   background-size: cover;
   box-sizing: border-box;
   align-items: center;
-  .login_box {
-    align-items: center;
-    width: 1300px;
-    height: 650px;
-    border-radius: 8%;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
+  .boxSU {
     margin: auto;
     margin-top: 150px;
-    margin-bottom: 200px;
-    background-color: #ffffff;
+    margin-bottom: 150px;
+    width: 1300px;
+    height: 800px;
+    background-color: white;
     opacity: 80%;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    .headerSU {
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
-.headerLI {
-  background-color: #ffffff;
-  opacity: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 30px;
-  margin-bottom: 30px;
+.headerSU {
+  margin-bottom: 40px;
 }
-.htext {
+.hText {
+  margin: auto;
   margin-top: 50px;
+  font-size: 48px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
-  font-size: 48px;
 }
-.inputs {
+.row {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-.input {
-  justify-self: left;
-  margin-bottom: 25px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3px;
 }
 .text1 {
   font-family: "Times New Roman", Times, serif;
@@ -63,6 +58,7 @@
   flex-direction: column;
 }
 .submit {
+  align-self: center;
   color: #3e8bff;
   margin-bottom: 30px;
 }
@@ -79,4 +75,7 @@
 }
 .normal_text {
   color: black;
+}
+::placeholder {
+  font-size: 18;
 }
