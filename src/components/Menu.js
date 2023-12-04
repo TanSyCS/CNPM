@@ -14,8 +14,8 @@ const Menu = () => {
       <br/>
       <a href=""><img className="side-box-button" src={require("../assets/images/button_upload_file.png")} alt="Button1" /></a>
       <a href=""><img className="side-box-button" src={require("../assets/images/button_print.png")} alt="Button2" /></a>
-      <a href=""><img className="side-box-button" src={require("../assets/images/button_buypage.png")} alt="Button3" /></a>
-      <a href=""><img className="side-box-button" src={require("../assets/images/button_search_info.png")} alt="Button4" /></a>
+      <a href="/main-page/buy-page"><img className="side-box-button" src={require("../assets/images/button_buypage.png")} alt="Button3" /></a>
+      <a href="/main-page/info"><img className="side-box-button" src={require("../assets/images/button_search_info.png")} alt="Button4" /></a>
       {/*<p className="side-box-footer">HCMUT_SPSS</p>*/}
     </div>
   );

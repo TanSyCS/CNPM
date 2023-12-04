@@ -2,9 +2,9 @@ import Logo from "../components/Logo";
 import "./FPPage.css";
 function FPPage() {
   return (
-    <div className="container">
-      <div className="box">
-        <div className="headerFP">
+    <div className="tcontainer">
+      <div className="tbox">
+        <div className="theaderFP">
           <Logo />
           <div className="hText">Quên mật khẩu</div>
         </div>
@@ -34,7 +34,7 @@ function FPPage() {
             />
           </div>
         </div>
-        <button className="bt">Xác nhận</button>
+        <a href="/login">Xác nhận</a>
       </div>
     </div>
   );

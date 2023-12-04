@@ -7,10 +7,10 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-left-section">
-        <a href=""><img className="header-logo" src={require("../assets/images/logo.png")} alt="Logo" /></a>
+        <a href="/main-page"><img className="header-logo" src={require("../assets/images/logo.png")} alt="Logo" /></a>
       </div>
       <div className="header-nav-links">
-        <a href="">Trang chủ</a>
+        <a href="/main-page">Trang chủ</a>
         <a href="">Tài liệu</a>
         <a href="">Danh sách máy in</a>
         <a href="">Nhật ký</a>

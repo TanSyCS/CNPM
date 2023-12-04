@@ -1,4 +1,4 @@
-.container {
+.tcontainer {
   display: flex;
   background-image: url(../assets/images/background.png);
   height: 100%;
@@ -6,7 +6,7 @@
   background-size: cover;
   box-sizing: border-box;
   align-items: center;
-  .box {
+  .tbox {
     margin: auto;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .headerFP {
+    .theaderFP {
       align-self: center;
       display: flex;
       flex-direction: column;

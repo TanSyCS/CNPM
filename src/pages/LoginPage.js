@@ -30,13 +30,16 @@ function LoginPage() {
           <a
             id="blue_text"
             className="submit"
-            href="https://www.youtube.com/watch?v=SqcY0GlETPk"
+            href="login/forget-pass"
           >
             Quên mật khẩu
           </a>
-          <button className="submit" id="bt">
+          <a
+            className="submit"
+            id="bt"
+            href = '/main-page'   >
             Đăng nhập
-          </button>
+          </a>
           <div className="submit">
             <div className="normal_text">
               Đã có tài khoản?
@@ -44,10 +47,10 @@ function LoginPage() {
                 {" "}
                 <a
                   className="blue_text"
-                  href="https://www.youtube.com/watch?v=8QgQKRcAUvM"
+                  href="/sign-up"
                 >
                   {" "}
-                  Đăng Nhập
+                  Đăng kí
                 </a>
               </span>
             </div>

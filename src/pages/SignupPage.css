@@ -1,4 +1,4 @@
-.container {
+.tcontainer {
   display: flex;
   background-image: url(../assets/images/background.png);
   height: 100%;
@@ -6,7 +6,7 @@
   background-size: cover;
   box-sizing: border-box;
   align-items: center;
-  .boxSU {
+  .tboxSU {
     margin: auto;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -24,45 +24,45 @@
     }
   }
 }
-.headerSU {
+.theaderSU {
   margin-bottom: 40px;
 }
-.hText {
+.thText {
   margin: auto;
   margin-top: 50px;
   font-size: 48px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
 }
-.row {
+.trow {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 3px;
 }
-.text1 {
+.ttext1 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 10px;
 }
-.input_field {
+.tinput_field {
   border: 2px solid;
   border-color: black;
   width: 500px;
   height: 30px;
 }
-.submits {
+.tsubmits {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
-.submit {
+.tsubmit {
   align-self: center;
   color: #3e8bff;
   margin-bottom: 30px;
 }
-#bt {
+#tbt {
   cursor: pointer;
   border: 2px;
   background-color: #3e8bff;
