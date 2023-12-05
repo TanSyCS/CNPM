@@ -2,9 +2,9 @@ import React from "react";
 
 import { createColumnHelper } from "@tanstack/react-table";
 
-import { Button, Img, Input, ReactTable, Text } from "components";
-import XemMYInFooter from "components/XemMYInFooter";
-import XemMYInMenucasinhvin from "components/XemMYInMenucasinhvin";
+import { Button, Img, Input, ReactTable, Text } from "/components";
+import XemMYInFooter from "/components/XemMYInFooter";
+import XemMYInMenucasinhvin from "/components/XemMYInMenucasinhvin";
 
 const XemmyinPage = () => {
   const tableData = React.useRef([
