@@ -8,3 +8,40 @@
     display: flex;
     flex: 1; 
 }
+.Main14
+{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    width: var(--primary-width);
+    justify-content: space-between;
+    background-color: antiquewhite;
+    min-height: 100vh; /*full chiều dài*/
+    display: flex;
+    flex: 1; /* Allow the main content to grow and take remaining space */
+}
+.schedule,
+.history {
+  margin-bottom: 50px;
+  height: 23px;
+}
+        .Table {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                margin: auto;
+      }
+      .search {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        margin-top: 25px;
+      }
+      .row {
+        margin-left: 71px;
+        justify-content: center;
+      }
