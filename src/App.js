@@ -10,7 +10,7 @@ import PrintInfo from "./pages/PrintInfo"
 import PrintScheduleViewer from "./pages/PrintScheduleViewer"
 import student_info from "./pages/student_info"
 import update_student_info from "./pages/update_student_info"
-import printer_view from "./pages/XemMayIn"
+import quanlimayin from "./pages/Quanlimayin"
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {

@@ -2,50 +2,25 @@ import React from "react";
 
 import { createColumnHelper } from "@tanstack/react-table";
 
-import { Button, Datepicker, Img, Input, ReactTable, Text } from "components";
-import XemLChSInNSPSOFooter from "components/XemLChSInNSPSOFooter";
-import XemLChSInNSPSOMenucaspso from "components/XemLChSInNSPSOMenucaspso";
+import { Button, Img, Input, ReactTable, Text } from "components";
+import XemMYInFooter from "components/XemMYInFooter";
+import XemMYInMenucasinhvin from "components/XemMYInMenucasinhvin";
 
-const XemlchsinnSPSOPage = () => {
+const XemmyinPage = () => {
   const tableData = React.useRef([
-    {
-      min: "1234ABCD",
-      thigian: "Thứ 4, 28/09/2018, ca chiều",
-      myin: "ABCD",
-      tiliu: "Capstone_Project_hk231_2023_v3",
-    },
-    {
-      min: "2345ABCD",
-      thigian: "Thứ 4, 28/09/2018, ca chiều",
-      myin: "BCDE",
-      tiliu: "01_Ch1 Introduction_2023",
-    },
-    {
-      min: "3456ABCD",
-      thigian: "Thứ 4, 28/09/2018, ca chiều",
-      myin: "CDEF",
-      tiliu: "02_Ch2 Software Processes_2023",
-    },
-    {
-      min: "4567ABCD",
-      thigian: "Thứ 4, 28/09/2018, ca chiều",
-      myin: "DEFG",
-      tiliu: "03_Ch3_4 Requirements Engineering_2023",
-    },
-    {
-      min: "5678ABCD",
-      thigian: "Thứ 4, 28/09/2018, ca chiều",
-      myin: "ABCD",
-      tiliu: "05_Ch5_Introduction_OOP_2023",
-    },
+    { mmyin: "ABCD", thnghiu: "Canon", aim: "601H1 BK HCM" },
+    { mmyin: "BCDE", thnghiu: "Canon", aim: "601H6 BK HCM" },
+    { mmyin: "CDEF", thnghiu: "Samsung", aim: "102H6 BK HCM" },
+    { mmyin: "DEFG", thnghiu: "Lexmark", aim: "202H2 BK HCM" },
+    { mmyin: "EFGH", thnghiu: "Panasonic", aim: "301H3 BK HCM" },
   ]);
   const tableColumns = React.useMemo(() => {
     const tableColumnHelper = createColumnHelper();
     return [
-      tableColumnHelper.accessor("min", {
+      tableColumnHelper.accessor("mmyin", {
         cell: (info) => (
           <Text
-            className="pb-[5px] sm:pl-5 pl-[35px] pt-2.5 text-black-900 text-lg"
+            className="pb-1 pt-[9px] sm:px-5 px-[35px] text-black-900 text-lg"
             size="txtEBGaramondRomanRegular18"
           >
             {info?.getValue()}
@@ -53,29 +28,29 @@ const XemlchsinnSPSOPage = () => {
         ),
         header: (info) => (
           <Button className="cursor-pointer font-bold leading-[normal] min-w-[172px] text-center text-lg">
-            <div className="min-w-[172px]">MÃ IN</div>
+            <div className="min-w-[172px]">MÃ MÁY IN</div>
           </Button>
         ),
       }),
-      tableColumnHelper.accessor("thigian", {
+      tableColumnHelper.accessor("thnghiu", {
         cell: (info) => (
           <Text
-            className="pb-1 sm:pl-5 pl-[35px] pt-2.5 text-black-900 text-lg"
+            className="pb-1 pt-2.5 sm:px-5 px-[35px] text-black-900 text-lg"
             size="txtEBGaramondRomanRegular18"
           >
             {info?.getValue()}
           </Text>
         ),
         header: (info) => (
-          <Button className="cursor-pointer font-bold leading-[normal] min-w-[279px] text-center text-lg">
-            <div className="min-w-[279px]">THỜI GIAN</div>
+          <Button className="cursor-pointer font-bold leading-[normal] min-w-[200px] text-center text-lg">
+            <div className="min-w-[200px]">THƯƠNG HIỆU</div>
           </Button>
         ),
       }),
-      tableColumnHelper.accessor("myin", {
+      tableColumnHelper.accessor("aim", {
         cell: (info) => (
           <Text
-            className="pb-[5px] pt-[9px] sm:px-5 px-[35px] text-black-900 text-lg"
+            className="pb-1 sm:pl-5 pl-6 pt-2.5 text-black-900 text-lg"
             size="txtEBGaramondRomanRegular18"
           >
             {info?.getValue()}
@@ -83,22 +58,7 @@ const XemlchsinnSPSOPage = () => {
         ),
         header: (info) => (
           <Button className="cursor-pointer font-bold leading-[normal] min-w-[172px] text-center text-lg">
-            <div className="min-w-[172px]">MÁY IN</div>
-          </Button>
-        ),
-      }),
-      tableColumnHelper.accessor("tiliu", {
-        cell: (info) => (
-          <Text
-            className="pb-[3px] sm:pl-5 pl-[35px] pt-3 text-black-900 text-lg"
-            size="txtEBGaramondRomanRegular18"
-          >
-            {info?.getValue()}
-          </Text>
-        ),
-        header: (info) => (
-          <Button className="cursor-pointer font-bold leading-[normal] min-w-[325px] text-center text-lg">
-            <div className="min-w-[325px]">TÀI LIỆU</div>
+            <div className="min-w-[172px]">ĐỊA ĐIỂM</div>
           </Button>
         ),
       }),
@@ -164,136 +124,115 @@ const XemlchsinnSPSOPage = () => {
               />
             </div>
           </header>
-          <div className="flex md:flex-col flex-row md:gap-10 gap-[82px] items-start justify-start md:px-5 w-[94%] md:w-full">
-            <div className="bg-blue-A100 flex flex-col md:gap-10 gap-[304px] items-center justify-end p-[17px] w-1/5 md:w-full">
-              <XemLChSInNSPSOMenucaspso className="flex flex-col items-center justify-start mt-[17px] w-full" />
+          <div className="flex md:flex-col flex-row md:gap-10 gap-[98px] items-start justify-start md:px-5 w-[96%] md:w-full">
+            <div className="bg-blue-A100 flex flex-col md:gap-10 gap-[303px] justify-end p-[7px] w-[19%] md:w-full">
+              <XemMYInMenucasinhvin className="flex flex-col items-center justify-start ml-2 md:ml-[0] mt-[26px] w-[97%] md:w-full" />
               <Text
-                className="text-lg text-white-A700"
+                className="mb-[11px] md:ml-[0] ml-[52px] mr-[68px] text-lg text-white-A700"
                 size="txtEBGaramondRomanBold18"
               >
                 HCMUT_SSPS
               </Text>
             </div>
-            <div className="flex flex-col gap-7 items-center justify-start md:mt-0 mt-[29px] w-3/4 md:w-full">
-              <Text
-                className="text-5xl sm:text-[38px] md:text-[44px] text-blue-900 text-center"
-                size="txtEBGaramondRomanBold48"
-              >
-                LỊCH SỬ IN ẤN
-              </Text>
-              <div className="flex flex-col items-start justify-start w-full">
-                <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
-                  <div className="flex md:flex-1 flex-col gap-2 justify-start w-[30%] md:w-full">
-                    <Text
-                      className="ml-6 md:ml-[0] text-blue-900 text-lg"
-                      size="txtEBGaramondRomanBold18Blue900"
-                    >
-                      MSSV
-                    </Text>
-                    <Input
-                      name="groupTwo"
-                      placeholder="Nhập MSSV"
-                      className="leading-[normal] p-0 placeholder:text-blue-900_7f text-left text-lg w-full"
-                      wrapClassName="flex w-full"
-                      suffix={
-                        <div className="mb-1 ml-[35px] w-[18px] bg-blue-A200">
-                          <Img
-                            className="my-auto"
-                            src="images/img_rewind.svg"
-                            alt="rewind"
-                          />
-                        </div>
-                      }
-                    ></Input>
-                  </div>
-                  <div className="flex md:flex-1 flex-col justify-start w-[30%] md:w-full">
-                    <Text
-                      className="ml-6 md:ml-[0] text-blue-900 text-lg"
-                      size="txtEBGaramondRomanBold18Blue900"
-                    >
-                      Máy in
-                    </Text>
-                    <Input
-                      name="language"
-                      placeholder="Nhập mã máy in "
-                      className="leading-[normal] p-0 placeholder:text-blue-900_7f text-left text-lg w-full"
-                      wrapClassName="flex mt-1 rounded-[19px] w-full"
-                      suffix={
-                        <div className="mb-[5px] ml-[35px] w-[18px] bg-blue-A200">
-                          <Img
-                            className="my-auto"
-                            src="images/img_rewind.svg"
-                            alt="rewind"
-                          />
-                        </div>
-                      }
-                    ></Input>
-                  </div>
-                  <div className="flex md:flex-1 flex-col gap-[5px] justify-start w-[30%] md:w-full">
+            <div className="flex flex-col gap-[15px] items-center justify-start md:mt-0 mt-[25px] w-3/4 md:w-full">
+              <div className="flex flex-col justify-start w-full">
+                <Text
+                  className="md:ml-[0] ml-[265px] text-5xl sm:text-[38px] md:text-[44px] text-blue-900 text-center"
+                  size="txtEBGaramondRomanBold48"
+                >
+                  DANH SÁCH MÁY IN
+                </Text>
+                <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between mt-[33px] w-full">
+                  <div className="flex md:flex-1 flex-col gap-[13px] justify-start w-[30%] md:w-full">
                     <Text
                       className="md:ml-[0] ml-[23px] text-blue-900 text-lg"
                       size="txtEBGaramondRomanBold18Blue900"
                     >
-                      Thời gian
+                      Mã máy in
                     </Text>
-                    <Datepicker
-                      className="groupOne"
-                      placeholder="dd/mm/yyyy"
-                    ></Datepicker>
+                    <Input
+                      name="groupOne"
+                      placeholder="Nhập mã máy in"
+                      className="leading-[normal] p-0 placeholder:text-blue-900_7f text-left text-lg w-full"
+                      wrapClassName="flex w-full"
+                      suffix={
+                        <div className="mt-px mb-0.5 ml-[35px] sm:w-full sm:mx-0 w-[6%] bg-blue-A200">
+                          <Img
+                            className="my-auto"
+                            src="images/img_rewind.svg"
+                            alt="rewind"
+                          />
+                        </div>
+                      }
+                    ></Input>
+                  </div>
+                  <div className="flex md:flex-1 flex-col gap-[13px] justify-start w-[30%] md:w-full">
+                    <Text
+                      className="md:ml-[0] ml-[23px] text-blue-900 text-lg"
+                      size="txtEBGaramondRomanBold18Blue900"
+                    >
+                      Thương hiệu
+                    </Text>
+                    <Input
+                      name="groupTwo"
+                      placeholder="Nhập brand/NSX"
+                      className="leading-[normal] p-0 placeholder:text-blue-900_7f text-left text-lg w-full"
+                      wrapClassName="flex w-full"
+                      suffix={
+                        <div className="mt-px mb-0.5 ml-[35px] sm:w-full sm:mx-0 w-[6%] bg-blue-A200">
+                          <Img
+                            className="my-auto"
+                            src="images/img_rewind.svg"
+                            alt="rewind"
+                          />
+                        </div>
+                      }
+                    ></Input>
+                  </div>
+                  <div className="flex md:flex-1 flex-col gap-3.5 justify-start w-[30%] md:w-full">
+                    <Text
+                      className="md:ml-[0] ml-[23px] text-blue-900 text-lg"
+                      size="txtEBGaramondRomanBold18Blue900"
+                    >
+                      Địa điểm
+                    </Text>
+                    <Input
+                      name="groupThree"
+                      placeholder="Nhập địa điểm"
+                      className="leading-[normal] p-0 placeholder:text-blue-900_7f text-left text-lg w-full"
+                      wrapClassName="flex w-full"
+                      suffix={
+                        <div className="mt-px mb-0.5 ml-[35px] sm:w-full sm:mx-0 w-[6%] bg-blue-A200">
+                          <Img
+                            className="my-auto"
+                            src="images/img_rewind.svg"
+                            alt="rewind"
+                          />
+                        </div>
+                      }
+                    ></Input>
                   </div>
                 </div>
                 <Text
-                  className="ml-6 md:ml-[0] mt-8 text-blue-900 text-lg"
+                  className="md:ml-[0] ml-[151px] mt-[43px] text-blue-900 text-lg"
                   size="txtEBGaramondRomanBold18Blue900"
                 >
-                  Lịch sử in ấn
+                  Danh sách máy in
                 </Text>
-                <div className="flex md:flex-col flex-row md:gap-5 items-end justify-evenly mt-[19px] w-full">
-                  <div className="border border-blue-A100 border-solid flex flex-1 flex-col h-[277px] md:h-auto items-start justify-start max-w-[953px] w-full">
-                    <div className="overflow-auto w-auto">
-                      <ReactTable
-                        columns={tableColumns}
-                        data={tableData.current}
-                        rowClass={""}
-                        headerClass="bg-blue-A100 border border-blue-A100"
-                      />
-                    </div>
-                  </div>
-                  <div className="bg-white-A700 border border-blue-900 border-solid flex md:flex-1 flex-col items-center justify-start md:mt-0 mt-[46px] pb-[131px] w-[2%] md:w-full">
-                    <div className="bg-blue-A100 h-[99px] w-full"></div>
-                  </div>
-                  <div className="flex flex-col gap-[19px] h-[210px] md:h-auto items-center justify-start mb-[9px] md:mt-0 mt-14 w-6">
-                    <Img
-                      className="h-6 w-6"
-                      src="images/img_settings.svg"
-                      alt="settings"
-                    />
-                    <Img
-                      className="h-6 w-6"
-                      src="images/img_settings.svg"
-                      alt="settings_One"
-                    />
-                    <Img
-                      className="h-6 w-6"
-                      src="images/img_settings.svg"
-                      alt="settings_Two"
-                    />
-                    <Img
-                      className="h-6 w-6"
-                      src="images/img_settings.svg"
-                      alt="settings_Three"
-                    />
-                    <Img
-                      className="h-6 w-6"
-                      src="images/img_settings.svg"
-                      alt="settings_Four"
-                    />
-                  </div>
+              </div>
+              <div className="border border-blue-A100 border-solid flex flex-col items-start justify-start w-[544px] sm:w-full">
+                <div className="overflow-auto w-[544px]">
+                  <ReactTable
+                    columns={tableColumns}
+                    data={tableData.current}
+                    rowClass={""}
+                    headerClass="bg-blue-A100 border border-blue-A100"
+                  />
                 </div>
               </div>
             </div>
           </div>
-          <XemLChSInNSPSOFooter
+          <XemMYInFooter
             className="bg-blue-900 flex flex-col items-center justify-end p-5 w-full"
             website={
               <Text className="font-bold md:ml-[0] ml-[447px] md:mt-0 mt-1.5 text-lg text-white-A700">
@@ -316,7 +255,7 @@ const XemlchsinnSPSOPage = () => {
                 </span>
               </Text>
             }
-            contactinfo={
+            description={
               <Text className="font-bold ml-32 md:ml-[0] md:mt-0 mt-1.5 text-lg text-white-A700">
                 <span className="text-white-A700 font-ebgaramond text-left">
                   <>
@@ -341,4 +280,4 @@ const XemlchsinnSPSOPage = () => {
   );
 };
 
-export default XemlchsinnSPSOPage;
+export default XemmyinPage;

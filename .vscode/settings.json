@@ -1095,7 +1095,7 @@
   //  - null: No file icons
   //  - vs-minimal
   //  - vs-seti
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
 
   // Controls whether the layout controls in the custom title bar is enabled via `window.titleBarStyle`.
   "workbench.layoutControl.enabled": true,
