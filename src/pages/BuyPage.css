@@ -1,46 +1,71 @@
 .PrintSchedule {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
+  flex-direction: column; 
 }
-:root {
-  --primary-width: 100%;
-}
-.row {
-  margin-left: 71px;
-  justify-content: center;
-}
-.main-content {
-  display: flex;
 
+.main-contentAA {
+  display: flex;
   flex: 1; /* Allow the main content to grow and take remaining space */
 }
-.PrintScheduleViewer {
-  display: inline-block;
-  width: 100%;
+.PrintScheduleViewerA {
+  margin-top: 20px;
+  margin-left: 100px;
+  display: flex;
   align-items: center;
   flex-direction: column;
-  width: var(--primary-width);
   justify-content: space-between;
-  background-color: antiquewhite;
 }
-.content {
-  width: auto;
-  height: 63px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+.PrintScheduleViewerA p{
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+  font-weight: bold;
+  gap: 20px;
 }
-.my-2 {
-  height: 24px;
-  width: 162px;
-  background: rgba(118.15, 172.89, 255, 0.5);
-  margin: auto;
+.info-tableNa1 {
+  display: table;
+
+  border-collapse: collapse;
+  overflow-x: auto;
+  overflow-y: auto;
 }
-#printButton {
+
+.info-tableNa1 td {
   padding: 10px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  width: 500px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
+
+.table-contentNa1 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+}
+.info-contentNa1 input{
+  text-align: center;
+}
+#p1{
+  font-size: 40px;
+}
+#p2{
+  font-size: 20px;
+}
+  .actionA button{
+    font-size: 18px;
+    color:#ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0 150px;
+    border: none;
+    padding: 10px;
+  }
+
+  .actionA button:hover{
+    opacity: 0.8;
+  }
+    .actionA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+  }
