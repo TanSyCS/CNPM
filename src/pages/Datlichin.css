@@ -1,0 +1,37 @@
+.Quanlimayin2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+.main-content 
+{
+    display: flex;
+    flex: 1; 
+}
+.PrintSchedule {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
+}
+.content {
+    width: auto;
+    height: 63px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.PrintScheduleViewer {
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    width: var(--primary-width);
+    justify-content: space-between;
+    background-color: antiquewhite;
+    width: 20%; /* Điều chỉnh độ rộng theo nhu cầu của bạn */
+}
+.Date
+{
+    margin-top:100px;
+    margin-bottom:100px;
+
+}
