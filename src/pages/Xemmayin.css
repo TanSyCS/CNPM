@@ -1,0 +1,136 @@
+.PrintSchedule {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
+}
+:root {
+  --primary-width: 100%;
+}
+.row {
+  margin-left: 71px;
+  justify-content: center;
+}
+.main-content {
+  display: flex;
+
+  flex: 1; /* Allow the main content to grow and take remaining space */
+}
+.PrintScheduleViewer {
+  display: inline-block;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  width: var(--primary-width);
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+.content {
+  width: auto;
+  height: 63px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.time,
+.printer,
+.document {
+  color: #0346aa;
+  font-family: EB Garamond;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.search {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  /* margin-left: 70px; */
+  margin-top: 25px;
+}
+
+.col-md-4 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+/* .col {
+  text-align: center;
+  width: 291px;
+  height: 77px;
+} */
+.schedule,
+.history {
+  margin-bottom: 50px;
+  height: 23px;
+}
+.Table {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.my-2 {
+  border-radius: 50px;
+  background: rgba(118.15, 172.89, 255, 0.5);
+}
+
+table thead th {
+  font-size: 18px;
+  font-family: EB Garamond;
+  font-weight: 700;
+  word-wrap: break-word;
+  background-color: #76adff;
+  color: aliceblue;
+}
+table thead tr {
+  height: 40px;
+}
+table {
+  border: 1px solid #76adff;
+  width: 971px;
+  height: 251px;
+  text-align: center;
+  margin: center;
+}
+.form1
+{
+      background: blue;
+      position:absolute;
+      left:1000px;
+      top:300px;
+      width: 30%;
+      transform: scale(1.5);
+}
+.form1 label, .form1 input {
+      display: block;
+      margin-bottom: 8px;
+}
+.form2
+{
+      position:absolute;
+      left:1800px;
+      top:300px;
+      width: 30%;
+      transform: scale(3.5);
+}
+.form2 label, .form2 input {
+      display: block;
+      margin-bottom: 8px;
+  }
+.form3
+{
+      position:absolute;
+      left:2600px;
+      top:300px;
+      width: 30%;
+      transform: scale(1.5);
+}
+.form3 label, .form3 input {
+      display: block;
+      margin-bottom: 8px;
+}
