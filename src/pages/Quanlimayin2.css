@@ -1,0 +1,152 @@
+
+.main-content {
+    display: flex;
+  
+    flex: 1; /* Allow the main content to grow and take remaining space */
+  }
+.PrintSchedule {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
+}
+.content {
+    width: auto;
+    height: 63px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+.content2 {
+    width: auto;
+    height: 63px;
+    margin-top: 800px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+  p1
+  {
+    margin-top: 50px;
+    margin-left: 950px;
+  }
+  p2
+  {
+    margin-top: 50px;
+    margin-left: 1090px;
+  }
+  .custom-button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px; /* Khoảng cách giữa các button */
+}
+.form1
+{
+    position:absolute;
+    left:500px;
+    top:400px;
+    width: 30%;
+    transform: scale(1.5);
+    transform-origin: top left;
+}
+.form1 label, .form1 input {
+    display: block;
+    margin-bottom: 8px;
+}
+.form2
+{
+    position:absolute;
+    left:2000px;
+    top:400px;
+    width: 30%;
+    transform: scale(1.5);
+    transform-origin: top right;
+}
+.form2 label, .form2 input 
+{
+    display: block;
+    margin-bottom: 8px;
+}
+.form3
+{
+    position:absolute;
+    left:2000px;
+    top:500px;
+    width: 30%;
+    transform: scale(1.5);
+    transform-origin: top right;
+}
+.form3 label, .form2 input 
+{
+    display: block;
+    margin-bottom: 8px;
+}
+.form4
+{
+    position:absolute;
+    left:500px;
+    top:500px;
+    width: 30%;
+    transform: scale(1.5);
+    transform-origin: top left;
+    
+}
+.form4 label, .form4 input 
+{
+    display: block;
+    margin-bottom: 8px;
+}
+.form5
+{
+    position:absolute;
+    left:2000px;
+    top:600px;
+    width: 30%;
+    transform: scale(1.5);
+    transform-origin: top right;
+}
+.form5 label, .form2 input 
+{
+    display: block;
+    margin-bottom: 8px;
+}
+.form6
+{
+    position:absolute;
+    left:500px;
+    top:600px;
+    width: 30%;
+    transform: scale(1.5);
+    transform-origin: top left;
+}
+.form6 label, .form2 input 
+{
+    display: block;
+    margin-bottom: 8px;
+}
+.form7
+{
+    position:absolute;
+    left:500px;
+    top:800px;
+    width: 30%;
+    transform: scale(1.5);
+    transform-origin: top left;
+}
+.form7 label, .form2 input 
+{
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+.but{
+    top:500px;
+    margin-left:1000px;
+    margin-right: 20px;
+
+}
