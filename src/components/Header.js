@@ -16,7 +16,7 @@ const Header = () => {
         <a href="/main-page/history-purch-page">Nhật ký</a>
       </div>
       <div className="header-right-section">
-        <a href="/stu-info"><img className="header-icon" src={require("../assets/images/ava.png")} alt="Icon 1" /></a>
+        <a href="/main-page/stu-info"><img className="header-icon" src={require("../assets/images/ava.png")} alt="Icon 1" /></a>
         <p className="header-text">TRẦN NGUYỄN NAM ANH</p>
         <button className="header-btn" >
           <img className="header-icon" src={require("../assets/images/noti-icon.png")} alt="Icon 3" />

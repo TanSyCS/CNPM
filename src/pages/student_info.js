@@ -75,7 +75,7 @@ const StudentInfo = () => {
             </tbody>
           </table>
           <div className="taction">
-            <a href="./update_student_info">CẬP NHẬT THÔNG TIN</a>
+            <a href="stu-info/update-student-info">CẬP NHẬT THÔNG TIN</a>
             <a onClick={handleToggleChangePass}>ĐỔI MẬT KHẨU</a>
           </div>
         </div>
