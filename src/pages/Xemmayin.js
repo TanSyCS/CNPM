@@ -62,7 +62,7 @@ const Xemmayin = () => {
                     paddingTop: '26px',
                   }}
                 >
-                  Lịch đặt in
+                 Danh sách máy in
                 </div>
 
                 <div className="Table">
