@@ -23,6 +23,7 @@
     width: 25%;
     justify-content: flex-end;
     margin-right: 50px; /* Adjust the margin as needed */
+    gap: 15px
   }
   
   .header-logo {
@@ -44,6 +45,7 @@
     color: white;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 16px;
   }
   
   .header-right-section a {
@@ -57,10 +59,10 @@
   .header-text {
     text-decoration: none;
     color: white;
-    margin-left: 10px;
-    margin-right: 10px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
     font-weight: 550;
+    margin-top: 20px;
   }
 
 .header-btn {
@@ -69,6 +71,7 @@
   padding: 0;
   cursor: pointer;
   margin-left: 10px;
+  margin-bottom: 5px;
 }
 
 .header-btn:hover {

@@ -6,7 +6,8 @@
   background-size: cover;
   box-sizing: border-box;
   align-items: center;
-  .login_box {
+}
+.login_box {
     align-items: center;
     width: 1300px;
     height: 650px;
@@ -18,8 +19,6 @@
     margin-top: 150px;
     margin-bottom: 200px;
     background-color: #ffffff;
-    opacity: 80%;
-  }
 }
 .headerLI {
   background-color: #ffffff;
@@ -74,9 +73,10 @@
   font-size: 18px;
   color: white;
   font-weight: bold;
-  width: 350px;
-  height: 44px;
+  padding: 10px 205px;
 }
 .normal_text {
+  margin-top: 20px;
   color: black;
+  font-weight: bold;
 }

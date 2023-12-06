@@ -3974,7 +3974,7 @@
   "git.enableCommitSigning": false,
 
   // Whether git is enabled.
-  "git.enabled": false,
+  "git.enabled": true,
 
   // Commit all changes when there are no staged changes.
   "git.enableSmartCommit": false,
