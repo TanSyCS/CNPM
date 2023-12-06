@@ -1,16 +1,16 @@
 /* student_info.css */
-.tstudent-info {
+.student-info {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
 }
 
-.tmain-content {
+.main-content {
   display: flex;
   flex: 1; /* Allow the main content to grow and take remaining space */
 }
 
-.tcontent {
+.content {
   margin-left: 100px;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@
   justify-content: space-between;
 }
 
-.taction{
+.action{
   flex-direction: row;
   justify-content: center;
   padding: 50px;

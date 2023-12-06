@@ -18,11 +18,11 @@ const StudentInfo = () => {
   };
 
   return (
-    <div className="tstudent-info">
+    <div className="student-info">
       <Header />
-      <div className="tmain-content">
+      <div className="main-content">
         <Menu />
-        <div className="tcontent">
+        <div className="content">
           <h2>THÔNG TIN CÁ NHÂN</h2>
           <table className="info-table">
           <tbody>
@@ -74,7 +74,7 @@ const StudentInfo = () => {
               </tr>
             </tbody>
           </table>
-          <div className="taction">
+          <div className="action">
             <a href="stu-info/update-student-info">CẬP NHẬT THÔNG TIN</a>
             <a onClick={handleToggleChangePass}>ĐỔI MẬT KHẨU</a>
           </div>

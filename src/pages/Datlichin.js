@@ -131,7 +131,7 @@ function Datlichin()
                                                                                         <input placeholder="dd/mm/yyy"></input>
                                                                                         <i class="fas fa-search search-icon"></i><br/>
                                                                                         </div>
-                                                                                        <a href="http://www.imdb.com">TIẾP THEO</a>
+                                                                                        <a href="scheduler-order2">TIẾP THEO</a>
                                                                         </form>
                                                                 </div>
                                 </div>

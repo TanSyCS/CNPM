@@ -12,7 +12,9 @@ import Student_info from "./pages/student_info"
 import Update_student_info from "./pages/update_student_info"
 import Quanlimayin from "./pages/Quanlimayin"
 import Xemmayin from "./pages/Xemmayin"
-import ScheduleOrder from "./pages/ScheduleOrder";
+import Datlichin from "./pages/Datlichin"
+import Datlichin2 from "./pages/Datlichin2"
+import Xemlichsu from "./pages/xemlichsuion";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
@@ -32,23 +34,25 @@ function App() {
             <Route path='main-page'>
               <Route index element={<MainPage />} />
               <Route path ='buy-page' element={<BuyPage />} />
-              <Route path ='info-search' element={<PrintInfo />} />
+              <Route path ='info-view' element={<Xemlichsu />} />
               <Route path='printer-view' element={<Xemmayin />} />
-              <Route path ='scheduler-order'element ={<ScheduleOrder/>}/>
+              <Route path='scheduler-order' element={<Datlichin/>}/>
+              <Route path = 'scheduler-order2' element ={<Datlichin2/>}/>
+              
               <Route path='history-purch-page' element={<HistoryPurchPage />} />
               <Route path='stu-info'>
                 <Route index element={<Student_info />} />
                 <Route path = 'update-student-info' element ={<Update_student_info/>}/>
               </Route>
-             </Route>
-            
-            <Route path='sign-up'>
-              <Route index element={<SignupPage />} />
-              <Route path = 'login' element={<LoginPage/>}/>
+              </Route>
+          
+              <Route path='sign-up'>
+                <Route index element={<SignupPage />} />
+                <Route path = 'login' element={<LoginPage/>}/>
+              </Route>
             </Route>
-          </Route>
-        </Routes>
-      </Router>  
+          </Routes>
+        </Router>  
     </div>
  );
 }
