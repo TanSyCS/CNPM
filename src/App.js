@@ -11,7 +11,8 @@ import PrintScheduleViewer from "./pages/PrintScheduleViewer"
 import Student_info from "./pages/student_info"
 import Update_student_info from "./pages/update_student_info"
 import Quanlimayin from "./pages/Quanlimayin"
-
+import Xemmayin from "./pages/Xemmayin"
+import ScheduleOrder from "./pages/ScheduleOrder";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
               <Route index element={<MainPage />} />
               <Route path ='buy-page' element={<BuyPage />} />
               <Route path ='info-search' element={<PrintInfo />} />
-              <Route path = 'printer-view' element = {<printer_view/>}/>
+              <Route path='printer-view' element={<Xemmayin />} />
+              <Route path ='scheduler-order'element ={<ScheduleOrder/>}/>
               <Route path='history-purch-page' element={<HistoryPurchPage />} />
               <Route path='stu-info'>
                 <Route index element={<Student_info />} />

@@ -11,11 +11,11 @@ const Xemmayin = () => {
     // Your handling logic here
   }
   return (
-    <div className="PrintSchedule">
+    <div className="tPrintSchedule">
       <Header />
-      <div className="main-content ">
+      <div className="tmain-content ">
         <Menu />
-        <div className="PrintScheduleViewer">
+        <div className="tPrintScheduleViewer">
           <div className="content">
             <p
               style={{

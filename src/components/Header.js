@@ -12,7 +12,7 @@ const Header = () => {
       <div className="header-nav-links">
         <a href="/main-page">Trang chủ</a>
         <a href="">Tài liệu</a>
-        <a href="">Danh sách máy in</a>
+        <a href="/main-page/printer-view">Danh sách máy in</a>
         <a href="/main-page/history-purch-page">Nhật ký</a>
       </div>
       <div className="header-right-section">

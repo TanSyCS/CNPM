@@ -1,4 +1,4 @@
-.PrintSchedule {
+.tPrintSchedule {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
@@ -10,12 +10,12 @@
   margin-left: 71px;
   justify-content: center;
 }
-.main-content {
+.tmain-content {
   display: flex;
 
   flex: 1; /* Allow the main content to grow and take remaining space */
 }
-.PrintScheduleViewer {
+.tPrintScheduleViewer {
   display: inline-block;
   width: 100%;
   align-items: center;
@@ -24,7 +24,7 @@
   justify-content: space-between;
   background-color: antiquewhite;
 }
-.content {
+.tcontent {
   width: auto;
   height: 63px;
   margin-top: 16px;
