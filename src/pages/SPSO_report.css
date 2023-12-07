@@ -1,0 +1,49 @@
+/* student_info.css */
+.SPSO-managesystem {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
+}
+
+.SPSOmain-contentNa123 {
+  display: flex;
+  flex: 1; /* Allow the main content to grow and take remaining space */
+}
+#p1130SPSO1{
+  font-size: 40px;
+}
+#p1130SPSO2{
+  font-size: 18px;
+}
+#p1130SPSO3{
+  font-size: 25px;
+  background-color: #76ADFF;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+.SPSOcontentNa123 {
+  margin-top: 20px;
+  margin-left: 100px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.SPSOcontentNa123 p{
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+  font-weight: bold;
+}
+.searchforreport{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+.searchbymssv input{
+    padding: 10px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}

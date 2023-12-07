@@ -19,6 +19,7 @@ import SPSOManagePrinter from "./pages/SPSO_manageprinter"
 import SPSOAddPrinter from "./pages/SPSO_Addprinter"
 import SPSOPrinterInfo from "./pages/SPSO_printerinfo"
 import SPSOConfigure from "./pages/SPSO_configure"
+import SPSOReport from "./pages/SPSO_report"
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
               <Route path='SPSO-detail-printer' element={<SPSOPrinterInfo />} />
             </Route>
             <Route path='SPSO-configsystem' element={<SPSOConfigure />} />
+            <Route path='SPSO-report' element={<SPSOReport />} />
 
 
           </Route>

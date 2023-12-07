@@ -26,9 +26,9 @@ const Menu = () => {
             <br></br>
             <a href="/main-page/SPSO-configsystem"><img className="side-box-button" src={require("../assets/images/Quản lý cấu hình-icon.png")} alt="Button2" /></a>
             <br></br>
-            <a href="/main-page/buy-page"><img className="side-box-button" src={require("../assets/images/Xem lịch sử in ấn-icon.png")} alt="Button3" /></a>
+            <a href="/main-page/SPSO-report"><img className="side-box-button" src={require("../assets/images/Báo cáo-icon.png")} alt="Button3" /></a>
             <br></br>
-            <a onClick={handleToggleOption}><img className="side-box-button" src={require("../assets/images/Báo cáo-icon.png")} alt="Button4" /></a>
+            <a onClick={handleToggleOption}><img className="side-box-button" src={require("../assets/images/Xem lịch sử in ấn-icon.png")} alt="Button4" /></a>
             {/*<p className="side-box-footer">HCMUT_SPSS</p>*/}
             {showOption && <Options onClose={handleCloseOption} />}
         </div>
