@@ -7,16 +7,18 @@ import MainPage from "./pages/MainPage";
 import BuyPage from "./pages/BuyPage"
 import HistoryPurchPage from "./pages/HistoryPurchPage"
 import PrintInfo from "./pages/PrintInfo"
-import PrintScheduleViewer from "./pages/PrintScheduleViewer"
 import Student_info from "./pages/student_info"
 import Update_student_info from "./pages/update_student_info"
-import Quanlimayin from "./pages/Quanlimayin"
 import Xemmayin from "./pages/Xemmayin"
 import Datlichin from "./pages/Datlichin"
 import Datlichin2 from "./pages/Datlichin2"
 import Xemlichsu from "./pages/xemlichsuin";
 import BuyPageInfo from "./pages/buypage_detail"
 import PrinterInfo from "./pages/PrinterInfo"
+import SPSOManagePrinter from "./pages/SPSO_manageprinter"
+import SPSOAddPrinter from "./pages/SPSO_Addprinter"
+import SPSOPrinterInfo from "./pages/SPSO_printerinfo"
+import SPSOConfigure from "./pages/SPSO_configure"
 
 function App() {
   return (
@@ -57,6 +59,15 @@ function App() {
               <Route index element={<Student_info />} />
               <Route path='update-student-info' element={<Update_student_info />} />
             </Route>
+
+            <Route path='SPSO-manageprinter'>
+              <Route index element={<SPSOManagePrinter />} />
+              <Route path='SPSO-addprinter' element={<SPSOAddPrinter />} />
+              <Route path='SPSO-detail-printer' element={<SPSOPrinterInfo />} />
+            </Route>
+            <Route path='SPSO-configsystem' element={<SPSOConfigure />} />
+
+
           </Route>
 
           <Route path='sign-up' element={<SignupPage />} />

@@ -1,0 +1,75 @@
+.SPSO_list-printer {
+  flex-direction: column; 
+}
+
+.SPSO_main-contentNaNaNa {
+  display: flex;
+  flex: 1; /* Allow the main content to grow and take remaining space */
+}
+.SPSO_list-printerNA {
+  margin-top: 20px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.SPSO_list-printerNA p{
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+  font-weight: bold;
+  gap: 20px;
+}
+.SPSO_list-printerNA a{
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+  font-weight: bold;
+  gap: 20px;
+}
+.info-tableNa113 {
+  display: table;
+
+  border-collapse: collapse;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+.info-tableNa113 thead{
+  background-color: #76ADFF;
+}
+.info-tableNa113 td {
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.table-contentNa123 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+#p113{
+  font-size: 40px;
+}
+#p2133{
+  font-size: 20px;
+}
+
+.actionNNAA{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.actionNNAA input{
+    padding: 6px 50px;
+    margin-bottom: 120px;
+}
+.OptionActionSPSO{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    gap: 70px;
+}
