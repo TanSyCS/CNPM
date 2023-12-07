@@ -1,143 +1,69 @@
 import React from 'react';
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import Logo from '../components/Logo'
 import Menu from '../components/Menu'
 import { Form, Col } from 'react-bootstrap'
 import './Datlichin.css'
-function Datlichin()
-{
+const Datlichin =() => {
         return (
-                
-                <div className="PrintSchedule">
-                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
-
+                <div className="print-process">
                         <Header />
-                        <div className="main-content ">
+                        <div className="main-contentNaNa">
                                 <Menu />
-                                <div className="PrintScheduleViewer">
-                                                        <div className="content">
-                                                                <p
-                                                                        style={{
-                                                                                backgroundColor: '#white',
-                                                                                color: '#0346AA',
-                                                                                fontSize: '48px',
-                                                                                fontFamily: 'EB Garamond',
-                                                                                fontWeight: '700',
-                                                                                wordWrap: 'break-word',
-                                                                                padding: '10px',
-                                                                                textAlign: 'center',
-                                                                                margin: 'auto',
-                                                                               
-                                                                        }}
-                                                                > Đặt lịch in </p>
-                                                        </div>
-                                                                <table border="1" ceilpadding="8px" cellspacing="7px" align="center" bgcolor="lightblue">
-                                                                        <tr bgcolor="lightgreen">
-                                                                        <th rowspan="4">Table</th>
-                                                                        <th>
-                                                                                Ca
-                                                                        </th>
-                                                                        <th>
-                                                                                Monday
-                                                                        </th>
-                                                                        <th>
-                                                                                Tuesday
-                                                                        </th>
-                                                                        <th>
-                                                                                Wednesday
-                                                                        </th>
-                                                                        <th>
-                                                                                Thursday
-                                                                        </th>
-                                                                        <th>
-                                                                                Friday
-                                                                        </th>
-                                                                        <th>
-                                                                                Saturday
-                                                                        </th>
-                                                                        <th>
-                                                                                Sunday
-                                                                        </th>
-                                                                </tr> 
-                                                                <tr>
-                                                                        <td>
-                                                                        Ca 1    
-                                                                        </td>
-                                                                        <td>
-                                                                        Sáng 7h-11h
-                                                                        </td>
-                                                                        <td>
-                                                                        Sáng 7h-11h
-                                                                        </td>
-                                                                        <td>
-                                                                        Sáng 7h-11h
-                                                                        </td>
-                                                                        <td>
-                                                                        Sáng 7h-11h
-                                                                        </td>
-                                                                        <td>
-                                                                        Sáng 7h-11h
-                                                                        </td>
-                                                                        <td>
-                                                                        Sáng 7h-11h
-                                                                        </td>
-                                                                        <td>
-                                                                        Sáng 7h-11h
-                                                                        </td>
-                                                                </tr>
-                                                                <tr>
-                                                                        <td>
-                                                                                Ca 2
-                                                                        </td>
-                                                                        <td>
-                                                                                Chiều 13h-16h
-                                                                        </td>
-                                                                        <td>
-                                                                                Chiều 13h-16h
-                                                                        </td>
-                                                                        <td>
-                                                                                Chiều 13h-16h
-                                                                        </td>
-                                                                        <td>
-                                                                                Chiều 13h-16h
-                                                                        </td>
-                                                                        <td>
-                                                                                Chiều 13h-16h
-                                                                        </td>
-                                                                        <td>
-                                                                                Chiều 13h-16h
-                                                                        </td>
-                                                                        <td>
-                                                                                Chiều 13h-16h
-                                                                        </td>
-                                                                </tr>
-                                                                <tr>
-                                                                        <td>Ca 3</td>
-                                                                        <td>Tối 18h-20h</td>
-                                                                        <td>Tối 18h-20h</td>
-                                                                        <td>Tối 18h-20h</td>
-                                                                        <td>Tối 18h-20h</td>
-                                                                        <td>Tối 18h-20h</td>
-                                                                        <td>Tối 18h-20h</td>
-                                                                        <td>Tối 18h-20h</td>
-                                                                </tr>
-                                                                </table>
-                                                                <div className="Date" align="center">
-                                                                        <form>
-                                                                                Chọn ngày<br />
-                                                                                
-                                                                                <div class="search-container">
-                                                                                        <input placeholder="dd/mm/yyy"></input>
-                                                                                        <i class="fas fa-search search-icon"></i><br/>
-                                                                                        </div>
-                                                                                        <a href="scheduler-order2">TIẾP THEO</a>
-                                                                        </form>
-                                                                </div>
+                                <div className="PrintScheduleViewerNA">
+                                        <p id="p11">ĐẶT LỊCH IN</p>
+                                        <p id="p21">Thời gian biểu làm việc</p>
+                                        <table className="info-tableNa1">
+                                                <thead>
+                                                        <td className="table-contentNa12"><label htmlFor="t2">Thứ hai</label></td>
+                                                        <td className="table-contentNa12"><label htmlFor="t3">Thứ ba</label></td>
+                                                        <td className="table-contentNa12"><label htmlFor="t4">Thứ tư</label></td>
+                                                        <td className="table-contentNa12"><label htmlFor="t5">Thứ năm</label></td>
+                                                        <td className="table-contentNa12"><label htmlFor="t6">Thứ sáu</label></td>
+                                                        <td className="table-contentNa12"><label htmlFor="t6">Thứ bảy</label></td>
+                                                        <td className="table-contentNa12"><label htmlFor="t6">Chủ nhật</label></td>
+                                                </thead>
+                                                <tbody>
+                                                        <tr>
+                                                                <td>Sáng: 7h-11h</td>
+                                                                <td>Sáng: 7h-11h</td>
+                                                                <td>Sáng: 7h-11h</td>
+                                                                <td>Sáng: 7h-11h</td>
+                                                                <td>Sáng: 7h-11h</td>
+                                                                <td>Sáng: 7h-11h</td>
+                                                                <td>Sáng: 7h-11h</td>
+                                                        </tr>
+                                                        <tr>
+                                                                <td>Chiều: 13h-16h</td>
+                                                                <td>Chiều: 13h-16h</td>
+                                                                <td>Chiều: 13h-16h</td>
+                                                                <td>Chiều: 13h-16h</td>
+                                                                <td>Chiều: 13h-16h</td>
+                                                                <td>Chiều: 13h-16h</td>
+                                                                <td>Chiều: 13h-16h</td>
+                                                        </tr>
+                                                        <tr>
+                                                                <td>Tối: 18h-20h</td>
+                                                                <td>Tối: 18h-20h</td>
+                                                                <td>Tối: 18h-20h</td>
+                                                                <td>Tối: 18h-20h</td>
+                                                                <td>Tối: 18h-20h</td>
+                                                                <td>Tối: 18h-20h</td>
+                                                                <td>Tối: 18h-20h</td>
+                                                        </tr>
+                                                </tbody>
+                                        </table>
+                                        <br></br><br></br><br></br>
+                                        <p id="p21">Chọn ngày</p>
+                                        <div className="actionNNA">
+                                                <input type="date" id="dateprint" name="dateprint"></input>
+                                                <a href="scheduler-order2">TIẾP THEO</a>
+                                        </div>
                                 </div>
                         </div>
                         <Footer />
-                </div>
-        ) 
+                </div>     
+                
+); 
 };
 export default Datlichin;

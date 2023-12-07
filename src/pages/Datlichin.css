@@ -1,37 +1,66 @@
-.Quanlimayin2 {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; 
+.print-process {
+  flex-direction: column; 
 }
-.main-content 
-{
-    display: flex;
-    flex: 1; 
-}
-.PrintSchedule {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
-}
-.content {
-    width: auto;
-    height: 63px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-.PrintScheduleViewer {
-    display: inline-block;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    width: var(--primary-width);
-    justify-content: space-between;
-    background-color: antiquewhite;
-    width: 20%; /* Điều chỉnh độ rộng theo nhu cầu của bạn */
-}
-.Date
-{
-    margin-top:100px;
-    margin-bottom:100px;
 
+.main-contentNaNa {
+  display: flex;
+  flex: 1; /* Allow the main content to grow and take remaining space */
+}
+.PrintScheduleViewerNA {
+  margin-top: 20px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.PrintScheduleViewerNA p{
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+  font-weight: bold;
+  gap: 20px;
+}
+.info-tableNa12 {
+  display: table;
+
+  border-collapse: collapse;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.info-tableNa12 td {
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.table-contentNa12 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+}
+
+#p11{
+  font-size: 40px;
+}
+#p21{
+  font-size: 20px;
+}
+
+.actionNNA{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.actionNNA input{
+    padding: 6px 50px;
+}
+.actionNNA a{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0346AA;
+    margin-bottom: 70px;
 }
