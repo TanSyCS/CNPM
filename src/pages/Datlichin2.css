@@ -1,50 +1,66 @@
-.Quanlimayin2 {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; 
+.print-process {
+  flex-direction: column; 
 }
-.main-content 
-{
-    display: flex;
-    flex: 1; 
-}
-.PrintSchedule {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
-}
-.content {
-    width: auto;
-    height: 63px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-.Date
-{
-    margin-top:100px;
-    margin-bottom:100px;
 
+.main-contentBBA {
+  display: flex;
+  flex: 1; /* Allow the main content to grow and take remaining space */
 }
-.siu
-{
-    margin-top:200px;
+.PrintScheduleViewerBAB {
+  margin-top: 20px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.but{
-    margin-left:1200px;
-    margin-right: 20px;
-    margin-top:70px;
+.PrintScheduleViewerBAB p{
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+  font-weight: bold;
+  gap: 20px;
 }
-.custom-button {
-    width: 100px;
-    height: 40px;
-    font-size: 16px;
-    background-color: #3498db;
-    color: #fff;
+.info-tableNa13 {
+  display: table;
+
+  border-collapse: collapse;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.info-tableNa13 td {
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.table-contentNa12 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+}
+
+#p111{
+  font-size: 40px;
+}
+#p211{
+  font-size: 20px;
+}
+
+.action123 button{
+    font-size: 18px;
+    color:#ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0 150px;
     border: none;
-    cursor: pointer;
-    margin-right: 20px; /* Khoảng cách giữa các button */
-}
-.move{
-    margin-left:1270px;
-    margin-top:40px;
-}
+    padding: 10px;
+  }
+
+  .action123 button:hover{
+    opacity: 0.8;
+  }
+  .action123{
+    margin-bottom: 20px;
+  }
