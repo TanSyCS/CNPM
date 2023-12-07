@@ -33,12 +33,12 @@ function App() {
 
             <Route path='main-page'>
               <Route index element={<MainPage />} />
-              <Route path='buy-page' element={<BuyPage/>} />
+              <Route path='buy-page' element={<BuyPage />} />
               <Route path='info-view' element={<Xemlichsu />} />
               <Route path='printer-view' element={<Xemmayin />} />
               <Route path='scheduler-order' element={<Datlichin />} />
               <Route path='scheduler-order2' element={<Datlichin2 />} />
-              <Route path ='history-print-view' element ={<Xemlichsu/>}/>
+              <Route path='history-print-view' element={<PrintScheduleViewer />} />
               <Route path='history-purch-page' element={<HistoryPurchPage />} />
               <Route path='stu-info'>
                 <Route index element={<Student_info />} />

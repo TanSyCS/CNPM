@@ -84,7 +84,7 @@ const HistoryPurchPage = () => {
               </div>
             </div>{' '}
           </div>{' '}
-          <div className="Table" style={{ marginTop: '46px' }}>
+          <div className="Table" style={{ marginTop: '46px', marginBottom: '15px' }}>
             <table>
               <thead>
                 <tr>
@@ -103,20 +103,36 @@ const HistoryPurchPage = () => {
                 </tr>
               </thead>
               <tbody>
-                {/* {{#each data}}
-                                    <tr class="">
-
-                                        <td >{{this.main}}</td>
-                                        <td>{{this.mayin}}</td>
-                                        <td>{{this.time}}</td>
-                                        <td>{{this.tailieu}}</td>
-                                        <td>
-                                            <button onclick="deleteDish('{{this._id}}')"
-                                                class="btn btn-sm btn-danger" style={{color: '#FF0000', fontSize: 18, fontFamily: 'EB Garamond', fontWeight: '400', textDecoration: 'underline', wordWrap: 'break-word'}}>hủy</button>
-                                        </td>
-
-                                    </tr>
-                                    {{/each}} */}
+                <tr>
+                  <td>D001</td>
+                  <td>2023-01-01</td>
+                  <td>10</td>
+                  <td>10.000VND</td>
+                </tr>
+                <tr>
+                  <td>D002</td>
+                  <td>2023-01-02</td>
+                  <td>15</td>
+                  <td>15.000VND</td>
+                </tr>
+                <tr>
+                  <td>D003</td>
+                  <td>2023-01-03</td>
+                  <td>12</td>
+                  <td>12.000VND</td>
+                </tr>
+                <tr>
+                  <td>D004</td>
+                  <td>2023-01-03</td>
+                  <td>15</td>
+                  <td>15.000VND</td>
+                </tr>
+                <tr>
+                  <td>D005</td>
+                  <td>2023-01-04</td>
+                  <td>19</td>
+                  <td>19.000VND</td>
+                </tr>
               </tbody>
             </table>
           </div>
