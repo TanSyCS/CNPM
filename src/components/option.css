@@ -19,7 +19,7 @@ form {
 }
 
 
-button {
+.containerOption a {
     background-color: #76ADFF;
     color: white;
     border: none;
@@ -32,6 +32,6 @@ button {
     font-size: 18px;
 }
 
-button:hover {
+.containerOption a:hover {
     background-color: #0346AA;
 }

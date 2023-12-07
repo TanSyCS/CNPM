@@ -1,0 +1,50 @@
+.detail-printer {
+  flex-direction: column; 
+}
+
+.main-contentNaNaNaPrinter {
+  display: flex;
+  flex: 1; /* Allow the main content to grow and take remaining space */
+}
+.detail-printerNA {
+  margin-top: 20px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.detail-printerNA p{
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+  font-weight: bold;
+  gap: 20px;
+}
+
+#p1130{
+  font-size: 40px;
+}
+#p1131{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.info-printer-show{
+    display: flex;
+    align-items: center;
+    justify-content: row;
+    gap: 300px;
+    margin-bottom: 30px;
+}
+.printer-info-show input{
+    padding: 10px 100px;
+    text-align: center;
+}
+.info-printer-show2 input{
+    padding: 10px 400px;
+    text-align: center;
+}
+.info-printer-show2{
+    margin-bottom: 30px;
+}

@@ -1,99 +1,63 @@
-.siu1 {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
+.history-print {
+  flex-direction: column; 
 }
-:root {
-  --primary-width: 100%;
-}
-.row {
-  margin-left: 71px;
-  justify-content: center;
-}
-.main-content {
-  display: flex;
 
+.main-contentNaNaNahis {
+  display: flex;
   flex: 1; /* Allow the main content to grow and take remaining space */
 }
-.temp {
-  display: inline-block;
-  width: 100%;
+.history-printNA {
+  margin-top: 20px;
+  margin-left: 100px;
+  display: flex;
   align-items: center;
   flex-direction: column;
-  width: var(--primary-width);
   justify-content: space-between;
-  background-color: antiquewhite;
 }
-.content {
-  width: auto;
-  height: 63px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+.history-printNA p{
+  font-family: 'Times New Roman', Times, serif;
+  color: #0346AA;
+  font-weight: bold;
+  gap: 20px;
 }
 
-.time,
-.printer,
-.document {
-  color: #0346aa;
-  font-family: EB Garamond;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-.search {
+.search-history-print{
   display: flex;
-  width: 100%;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  align-items: center;
-  /* margin-left: 70px; */
-  margin-top: 25px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
 }
 
-.col-md-4 {
-  margin-left: 40px;
-  margin-right: 40px;
+.info-tableNa1133 {
+  display: table;
+
+  border-collapse: collapse;
+  overflow-x: auto;
+  overflow-y: auto;
 }
-/* .col {
+.info-tableNa1133 thead{
+  background-color: #76ADFF;
+}
+.info-tableNa1133 td {
+  padding: 10px;
+  width: 500px;
   text-align: center;
-  width: 291px;
-  height: 77px;
-} */
-.schedule,
-.history {
-  margin-bottom: 50px;
-  height: 23px;
-}
-.Table {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-.my-2 {
-  border-radius: 50px;
-  background: rgba(118.15, 172.89, 255, 0.5);
+  font-family: 'Times New Roman', Times, serif;
 }
 
-table thead th {
-  font-size: 18px;
-  font-family: EB Garamond;
-  font-weight: 700;
-  word-wrap: break-word;
-  background-color: #76adff;
-  color: aliceblue;
+.table-contentNa1233 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
-table thead tr {
-  height: 40px;
+
+#p1133{
+  font-size: 40px;
 }
-table {
-  border: 1px solid #76adff;
-  width: 971px;
-  height: 251px;
-  text-align: center;
-  margin: center;
+#p2133{
+  font-size: 20px;
+}
+
+.search-his-By input{
+    padding: 6px 50px;
 }

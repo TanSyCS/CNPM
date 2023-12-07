@@ -1,10 +1,20 @@
 // Header.js
 
-import React from "react";
+import React, { useState } from 'react';
 import "./Header.css";
 import { Dropdown, DropdownButton, DropdownMenu } from "react-bootstrap";
+import Options from './option';
 
 const Header = () => {
+  const [showOption, setShowOption] = useState(false);
+
+  const handleToggleOption = () => {
+    setShowOption(!showOption);
+  };
+
+  const handleCloseOption = () => {
+    setShowOption(false);
+  };
   return (
     <div className="header">
       <div className="header-left-section">
@@ -20,10 +30,10 @@ const Header = () => {
         <a href="/main-page">Trang chủ</a>
         <a href="">Tài liệu</a>
         <a href="/main-page/printer-view">Danh sách máy in</a>
-        <a href="/main-page/history-purch-page">Nhật ký</a>
+        <a onClick={handleToggleOption} style={{color: 'white'}}>Nhật ký</a>
       </div>
       <div className="header-right-section">
-        <a href="">
+        <a href="/main-page/stu-info">
           <img
             className="header-icon"
             src={require("../assets/images/ava.png")}
@@ -39,6 +49,7 @@ const Header = () => {
           />
         </button>
       </div>
+      {showOption && <Options onClose={handleCloseOption} />}
     </div>
   );
 };

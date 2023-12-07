@@ -7,13 +7,13 @@ const Options = ({ onClose }) => {
     return (
         <div className="containerOption">
             <form>
-                <button type="button" >
+                <a href="/main-page/info-view" type="button" >
                     Lịch sử in ấn
-                </button>
+                </a>
                 <br></br>
-                <button type="button" >
+                <a href="/main-page/history-purch-page" type="button" >
                     Lịch sử mua trang
-                </button>
+                </a>
             </form>
             <div id="message"></div>
         </div>
