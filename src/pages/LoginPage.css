@@ -30,8 +30,9 @@
   padding-top: 30px;
   margin-bottom: 30px;
 }
-.htext {
-  margin-top: 50px;
+#htext {
+  color: black;
+  margin-top: 30px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 48px;
@@ -39,11 +40,11 @@
 .inputs {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .input {
   justify-self: left;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .text1 {
   font-family: "Times New Roman", Times, serif;
@@ -67,6 +68,11 @@
   margin-bottom: 30px;
 }
 #bt {
+  text-align: center;
+  width: 350px;
+  height: 44px;
+  align-self: center;
+  text-decoration: none;
   cursor: pointer;
   border: 2px;
   background-color: #3e8bff;
@@ -74,8 +80,6 @@
   font-size: 18px;
   color: white;
   font-weight: bold;
-  width: 350px;
-  height: 44px;
 }
 .normal_text {
   color: black;

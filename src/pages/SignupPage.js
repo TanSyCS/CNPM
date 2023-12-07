@@ -1,6 +1,28 @@
 import Logo from "../components/Logo";
+import { useState } from "react";
 import "./SignupPage.css";
+import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { registerUser } from "../redux/apiRequest";
 function SignupPage() {
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
+  const [mssv, setMssv] = useState();
+  const [khoa, setKhoa] = useState();
+  const [name, setName] = useState();
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const handleRegister = (e) => {
+    e.preventDefault();
+    const newUser = {
+      email: email,
+      password: password,
+      username: name,
+      mssv: mssv,
+      khoa: khoa,
+    };
+    registerUser(newUser, dispatch, navigate);
+  };
   return (
     <div className="tcontainer">
       <div className="tboxSU">
@@ -15,6 +37,7 @@ function SignupPage() {
               className="tinput_field"
               type="text"
               placeholder="Nhập họ và tên"
+              onChange={(e) => setName(e.target.value)}
             />
           </div>
           <div className="input">
@@ -23,6 +46,7 @@ function SignupPage() {
               className="tinput_field"
               type="text"
               placeholder="Nhập email"
+              onChange={(e) => setEmail(e.target.value)}
             />
           </div>
         </div>
@@ -33,6 +57,7 @@ function SignupPage() {
               className="tinput_field"
               type="text"
               placeholder="Nhập MSSV"
+              onChange={(e) => setMssv(e.target.value)}
             />
           </div>
           <div className="input">
@@ -51,6 +76,7 @@ function SignupPage() {
               className="tinput_field"
               type="text"
               placeholder="Nhập khoa"
+              onChange={(e) => setKhoa(e.target.value)}
             />
           </div>
 
@@ -60,6 +86,7 @@ function SignupPage() {
               className="tinput_field"
               type="password"
               placeholder="Nhập mật khẩu"
+              onChange={(e) => setPassword(e.target.value)}
             />
           </div>
         </div>
@@ -83,7 +110,7 @@ function SignupPage() {
         </div>
 
         <div className="tsubmits">
-          <button className="tsubmit" id="tbt">
+          <button className="tsubmit" id="tbt" onSubmit={handleRegister}>
             {" "}
             Đăng kí
           </button>
@@ -92,10 +119,7 @@ function SignupPage() {
           <div className="normal_text">
             Đã có tài khoản?
             <span>
-              <a href="/login">
-                {" "}
-                Đăng nhập
-              </a>
+              <a href="/login"> Đăng nhập</a>
             </span>
           </div>
         </div>
