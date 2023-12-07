@@ -97,7 +97,7 @@ const PrintScheduleViewer = () => {
                   Lịch đặt in
                 </div>
 
-                <div className="Table">
+                <div className="Table" >
                   <table>
                     <thead>
                       <tr>
@@ -117,27 +117,50 @@ const PrintScheduleViewer = () => {
                           scope="col"
                           class="col"
                           style={{
-                            width: '75px',
-                            backgroundColor: 'rgb(255 255 255 / 0%)',
+                            width: '75px'
+
                           }}
-                        ></th>
+                        >Hủy</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {/* {{#each data}}
-                                    <tr class="">
+                      <tr>
+                        <td>D1235655</td>
+                        <td>May12-114H6</td>
+                        <td>2023-01-01, ca chiều</td>
+                        <td>Capstone_Project_hk231_2023_v3</td>
+                        <td>✖ </td>
+                      </tr>
 
-                                        <td >{{this.main}}</td>
-                                        <td>{{this.mayin}}</td>
-                                        <td>{{this.time}}</td>
-                                        <td>{{this.tailieu}}</td>
-                                        <td>
-                                            <button onclick="deleteDish('{{this._id}}')"
-                                                class="btn btn-sm btn-danger" style={{color: '#FF0000', fontSize: 18, fontFamily: 'EB Garamond', fontWeight: '400', textDecoration: 'underline', wordWrap: 'break-word'}}>hủy</button>
-                                        </td>
+                      <tr>
+                        <td>D1112433</td>
+                        <td>May11-213H2</td>
+                        <td>2023-01-01, ca chiều</td>
+                        <td>01_Ch1 Introduction_2023</td>
+                        <td>✖</td>
+                      </tr>
+                      <tr>
+                        <td>D1112433</td>
+                        <td>May1-203H2</td>
+                        <td>2023-01-01, ca chiều</td>
+                        <td>02_Ch2 Software Processes_2023</td>
+                        <td>✖</td>
+                      </tr>
+                      <tr>
+                        <td>D1112433</td>
+                        <td>May1-203H2</td>
+                        <td>2023-01-01, ca chiều</td>
+                        <td>03_Ch3_4 Requirements Engineering_2023</td>
+                        <td>✖</td>
+                      </tr>
+                      <tr>
+                        <td>D1112433</td>
+                        <td>May8-211H2</td>
+                        <td>2023-01-01, ca chiều</td>
+                        <td>05_Ch5_Introduction_OOP_2023</td>
+                        <td>✖</td>
+                      </tr>
 
-                                    </tr>
-                                    {{/each}} */}
                     </tbody>
                   </table>
                 </div>
@@ -154,7 +177,7 @@ const PrintScheduleViewer = () => {
                 >
                   Lịch sử in ấn
                 </div>
-                <div className="Table" style={{ margin: 'center' }}>
+                <div className="Table" style={{ margin: 'center', marginBottom: '15px' }}>
                   <table>
                     <thead>
                       <tr>
@@ -170,31 +193,46 @@ const PrintScheduleViewer = () => {
                         <th scope="col" class="col" style={{ width: '325px' }}>
                           TÀI LIỆU
                         </th>
-                        <th
-                          scope="col"
-                          class="col"
-                          style={{
-                            width: '75px',
-                            backgroundColor: 'rgb(255 255 255 / 0%)',
-                          }}
-                        ></th>
+
                       </tr>
                     </thead>
                     <tbody>
-                      {/* {{#each data}}
-                                    <tr class="">
+                      <tr>
+                        <td>D1235655</td>
+                        <td>May12-114H6</td>
+                        <td>2023-01-01, ca chiều</td>
+                        <td>Capstone_Project_hk231_2023_v3</td>
 
-                                        <td >{{this.main}}</td>
-                                        <td>{{this.mayin}}</td>
-                                        <td>{{this.thoigian}}</td>
-                                        <td>{{this.tailieu}}</td>
-                                        <td>
-                                            <button onclick="deleteDish('{{this._id}}')"
-                                                class="btn btn-sm btn-danger" style={{color: '#FF0000', fontSize: 18, fontFamily: 'EB Garamond', fontWeight: '400', textDecoration: 'underline', wordWrap: 'break-word'}}>xóa</button>
-                                        </td>
+                      </tr>
 
-                                    </tr>
-                                    {{/each}} */}
+                      <tr>
+                        <td>D1112433</td>
+                        <td>May11-213H2</td>
+                        <td>2023-01-01, ca chiều</td>
+                        <td>01_Ch1 Introduction_2023</td>
+
+                      </tr>
+                      <tr>
+                        <td>D1112433</td>
+                        <td>May1-203H2</td>
+                        <td>2023-01-01, ca chiều</td>
+                        <td>02_Ch2 Software Processes_2023</td>
+
+                      </tr>
+                      <tr>
+                        <td>D1112433</td>
+                        <td>May2-212H1</td>
+                        <td>2023-01-01, ca chiều</td>
+                        <td>03_Ch3_4 Requirements Engineering_2023</td>
+
+                      </tr>
+                      <tr>
+                        <td>D1112433</td>
+                        <td>May8-211H2</td>
+                        <td>2023-01-01, ca chiều</td>
+                        <td>05_Ch5_Introduction_OOP_2023</td>
+
+                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -204,7 +242,7 @@ const PrintScheduleViewer = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </div >
   )
 }
 export default PrintScheduleViewer

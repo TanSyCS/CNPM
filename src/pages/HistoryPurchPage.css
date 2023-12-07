@@ -22,7 +22,7 @@
   flex-direction: column;
   width: var(--primary-width);
   justify-content: space-between;
-  background-color: antiquewhite;
+  background-color: white;
 }
 .content {
   width: auto;
