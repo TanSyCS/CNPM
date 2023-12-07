@@ -8,11 +8,11 @@ const Options = ({ onClose }) => {
         <div className="containerOption">
             <form>
                 <button type="button" >
-                    Lịch sử in ấn
+                   <a className='TheA' href = '/main-page/history-print-view'> Lịch sử in ấn</a>
                 </button>
                 <br></br>
-                <button type="button" >
-                    Lịch sử mua trang
+                <button type="button">
+                    <a className='TheA' href ='/main-page/history-purch-page'>Lịch sử mua trang</a>
                 </button>
             </form>
             <div id="message"></div>

@@ -15,7 +15,7 @@ import Xemmayin from "./pages/Xemmayin"
 import Datlichin from "./pages/Datlichin"
 import Datlichin2 from "./pages/Datlichin2"
 import Xemlichsu from "./pages/xemlichsuion";
-import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -30,31 +30,31 @@ function App() {
               <Route path='sign-up' element={<SignupPage />} />
               <Route path='forget-pass' element={<FPPage />} />
             </Route>
-           
+
             <Route path='main-page'>
               <Route index element={<MainPage />} />
-              <Route path ='buy-page' element={<BuyPage />} />
-              <Route path ='info-view' element={<Xemlichsu />} />
+              <Route path='buy-page' element={<BuyPage/>} />
+              <Route path='info-view' element={<Xemlichsu />} />
               <Route path='printer-view' element={<Xemmayin />} />
-              <Route path='scheduler-order' element={<Datlichin/>}/>
-              <Route path = 'scheduler-order2' element ={<Datlichin2/>}/>
-              
+              <Route path='scheduler-order' element={<Datlichin />} />
+              <Route path='scheduler-order2' element={<Datlichin2 />} />
+              <Route path ='history-print-view' element ={<Xemlichsu/>}/>
               <Route path='history-purch-page' element={<HistoryPurchPage />} />
               <Route path='stu-info'>
                 <Route index element={<Student_info />} />
-                <Route path = 'update-student-info' element ={<Update_student_info/>}/>
-              </Route>
-              </Route>
-          
-              <Route path='sign-up'>
-                <Route index element={<SignupPage />} />
-                <Route path = 'login' element={<LoginPage/>}/>
+                <Route path='update-student-info' element={<Update_student_info />} />
               </Route>
             </Route>
-          </Routes>
-        </Router>  
+
+            <Route path='sign-up'>
+              <Route index element={<SignupPage />} />
+              <Route path='login' element={<LoginPage />} />
+            </Route>
+          </Route>
+        </Routes>
+      </Router>
     </div>
- );
+  );
 }
 
 export default App;

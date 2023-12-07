@@ -45,7 +45,7 @@ const Xemlichsu = () => {
             </form>
                 <form class="form3">
                         <p>Địa điểm</p>
-                        <input type="search" name="search" placeholder="dd/mm/yy"/>
+                        <input type="search" name="search" placeholder="Chọn địa điểm"/>
                         <input type="submit" value="Tìm kiếm" />
                 </form>
               <div class="Container" style={{ width: '971px' }}>
