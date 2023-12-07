@@ -1,12 +1,12 @@
-.PrintSchedule {
+.print-process {
   flex-direction: column; 
 }
 
-.main-contentAA {
+.main-contentBBA {
   display: flex;
   flex: 1; /* Allow the main content to grow and take remaining space */
 }
-.PrintScheduleViewerA {
+.PrintScheduleViewerBAB {
   margin-top: 20px;
   margin-left: 100px;
   display: flex;
@@ -14,13 +14,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.PrintScheduleViewerA p{
+.PrintScheduleViewerBAB p{
   font-family: 'Times New Roman', Times, serif;
   color: #0346AA;
   font-weight: bold;
   gap: 20px;
 }
-.info-tableNa1 {
+.info-tableNa13 {
   display: table;
 
   border-collapse: collapse;
@@ -28,28 +28,27 @@
   overflow-y: auto;
 }
 
-.info-tableNa1 td {
+.info-tableNa13 td {
   padding: 10px;
   width: 500px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.table-contentNa1 {
+.table-contentNa12 {
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   color: #0346AA;
 }
-.info-contentNa1 input{
-  text-align: center;
-}
-#p1{
+
+#p111{
   font-size: 40px;
 }
-#p2{
+#p211{
   font-size: 20px;
 }
-  .actionA button{
+
+.action123 button{
     font-size: 18px;
     color:#ffffff;
     font-family: 'Times New Roman', Times, serif;
@@ -59,13 +58,9 @@
     padding: 10px;
   }
 
-  .actionA button:hover{
+  .action123 button:hover{
     opacity: 0.8;
   }
-    .actionA{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 50px;
-    align-items: center;
+  .action123{
+    margin-bottom: 20px;
   }

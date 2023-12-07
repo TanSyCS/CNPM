@@ -6,26 +6,25 @@
   background-size: cover;
   box-sizing: border-box;
   align-items: center;
-  .tbox {
+}
+.tbox {
     margin: auto;
     margin-top: 150px;
     margin-bottom: 150px;
     width: 1300px;
-    height: 800px;
+    height: 650px;
     background-color: white;
-    opacity: 80%;
     border-radius: 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    .theaderFP {
+}
+.theaderFP {
       align-self: center;
       display: flex;
       flex-direction: column;
       margin-bottom: 40px;
     }
-  }
-}
 
 .hText {
   margin: auto;

@@ -1,5 +1,5 @@
 /* changePass.css */
-.containerPass {
+.containerOption {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -12,26 +12,12 @@
     background-color: white;
 }
 
-.containerPass h2{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 25px;
-}
 
 form {
     display: flex;
     flex-direction: column;
 }
 
-label {
-    margin-top: 10px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-input {
-    padding: 8px;
-    margin-top: 10px;
-}
 
 button {
     background-color: #76ADFF;

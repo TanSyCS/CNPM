@@ -20,62 +20,62 @@ const StudentInfo = () => {
   return (
     <div className="student-info">
       <Header />
-      <div className="main-content">
+      <div className="main-contentNa">
         <Menu />
-        <div className="content">
+        <div className="contentNa">
           <h2>THÔNG TIN CÁ NHÂN</h2>
-          <table className="info-table">
+          <table className="info-tableNa">
           <tbody>
               <tr>
-                <td className="table-content"><label htmlFor="name">Họ và tên</label></td>
+                <td className="table-contentNa"><label htmlFor="name">Họ và tên</label></td>
                 <td>Trần Nguyễn Nam Anh</td>
               </tr>
               <tr>
-                <td className="table-content"><label htmlFor="id">Mã số sinh viên</label></td>
+                <td className="table-contentNa"><label htmlFor="id">Mã số sinh viên</label></td>
                 <td>2110758</td>
               </tr>
               <tr>
-                <td className="table-content"><label htmlFor="khoa">Khoa</label></td>
+                <td className="table-contentNa"><label htmlFor="khoa">Khoa</label></td>
                 <td>Khoa học và Kỹ thuật Máy tính</td>
               </tr>
               <tr>
-                <td className="table-content"><label htmlFor="dob">Ngày tháng năm sinh</label></td>
+                <td className="table-contentNa"><label htmlFor="dob">Ngày tháng năm sinh</label></td>
                 <td>01/01/2003</td>
               </tr>
               <tr>
-                <td className="table-content"><label htmlFor="gender">Phái</label></td>
+                <td className="table-contentNa"><label htmlFor="gender">Phái</label></td>
                 <td>Nữ</td>
               </tr>
               <tr>
-                <td className="table-content"><label htmlFor="addr">Địa chỉ</label></td>
+                <td className="table-contentNa"><label htmlFor="addr">Địa chỉ</label></td>
                 <td>KTX Khu A</td>
               </tr>
             </tbody>
           </table>
-
+          <br></br>
           <h2>THÔNG TIN TÀI KHOẢN</h2>
-          <table className="info-table">
+          <table className="info-tableNa">
             <tbody>
               <tr>
-                <td className="table-content"><label htmlFor="email">Email</label></td>
+                <td className="table-contentNa"><label htmlFor="email">Email</label></td>
                 <td>anh.trannguyen2809@hcmut.edu.vn</td>
               </tr>
               <tr>
-                <td className="table-content"><label htmlFor="phonenum">Số điện thoại</label></td>
+                <td className="table-contentNa"><label htmlFor="phonenum">Số điện thoại</label></td>
                 <td>909090909090</td>
               </tr>
               <tr>
-                <td className="table-content"><label htmlFor="passw">Mật khẩu</label></td>
+                <td className="table-contentNa"><label htmlFor="passw">Mật khẩu</label></td>
                 <td>************</td>
               </tr>
               <tr>
-                <td className="table-content"><label htmlFor="pagenum">Số trang còn lại</label></td>
+                <td className="table-contentNa"><label htmlFor="pagenum">Số trang còn lại</label></td>
                 <td>1000</td>
               </tr>
             </tbody>
           </table>
-          <div className="action">
-            <a href="./update_student_info">CẬP NHẬT THÔNG TIN</a>
+          <div className="action11">
+            <a href="stu-info/update-student-info">CẬP NHẬT THÔNG TIN</a>
             <a onClick={handleToggleChangePass}>ĐỔI MẬT KHẨU</a>
           </div>
         </div>

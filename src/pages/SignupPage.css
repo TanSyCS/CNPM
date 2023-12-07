@@ -6,29 +6,30 @@
   background-size: cover;
   box-sizing: border-box;
   align-items: center;
-  .tboxSU {
+}
+.tboxSU {
     margin: auto;
     margin-top: 150px;
     margin-bottom: 150px;
-    width: 1300px;
-    height: 800px;
+    width: 1500px;
+    height: 900px;
     background-color: white;
-    opacity: 80%;
     border-radius: 8%;
     display: flex;
     flex-direction: column;
-    .headerSU {
+    align-items: center;
+}
+.headerSU {
       align-self: center;
       display: flex;
       flex-direction: column;
     }
-  }
-}
 .theaderSU {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  align-items: center;
+  flex-direction: column;
 }
-.thText {
-  margin: auto;
+.thText1 {
   margin-top: 50px;
   font-size: 48px;
   font-family: "Times New Roman", Times, serif;
@@ -39,6 +40,7 @@
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 3px;
+  gap: 100px;
 }
 .ttext1 {
   font-family: "Times New Roman", Times, serif;

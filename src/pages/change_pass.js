@@ -34,7 +34,7 @@ const ChangePass = ({ onClose }) => {
   };
 
   return (
-    <div className="container">
+    <div className="containerPass">
       <h2>ĐỔI MẬT KHẨU</h2>
       <form>
         <label htmlFor="currentPassword">Mật khẩu hiện tại:</label>

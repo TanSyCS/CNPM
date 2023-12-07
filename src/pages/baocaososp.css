@@ -1,0 +1,67 @@
+.Baocaososp {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+.main-content 
+{
+    display: flex;
+    flex: 1; 
+}
+
+.content {
+    width: auto;
+    height: 63px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  p1
+  {
+    margin-top: 50px;
+  }
+napo{
+    margin-top: 90px;
+    margin-left: 580px;
+  }
+  siu{
+    margin-top: 90px;
+    margin-left: 1080px;
+  }
+  .Table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+.schedule,
+.history {
+  margin-bottom: 100px;
+  height: 23px;
+
+}
+table thead tr {
+    height: 40px;
+  }
+  table {
+    border: 1px solid #76adff;
+    width: 971px;
+    height: 251px;
+    text-align: center;
+    margin: center;
+  }
+  table thead th {
+    font-size: 18px;
+    font-family: EB Garamond;
+    font-weight: 700;
+    word-wrap: break-word;
+    background-color: #76adff;
+    color: aliceblue;
+  }
+.Table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left:400px;
+    margin-bottom:700px;
+    margin: auto;
+  }

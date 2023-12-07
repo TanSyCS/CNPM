@@ -5,12 +5,13 @@
   min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
 }
 
-.main-content {
+.main-contentNa {
   display: flex;
   flex: 1; /* Allow the main content to grow and take remaining space */
 }
 
-.content {
+.contentNa {
+  margin-top: 20px;
   margin-left: 100px;
   display: flex;
   align-items: center;
@@ -18,13 +19,13 @@
   justify-content: space-between;
 }
 
-.action{
+.action11{
   flex-direction: row;
   justify-content: center;
   padding: 50px;
 }
 
-.content h2 {
+.contentNa h2 {
   text-align: center;
   background-color: #76ADFF;
   color: white;
@@ -32,10 +33,11 @@
   width: 90%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
+  font-weight: bold;
 
 }
 
-.info-table {
+.info-tableNa {
   display: table;
   width: 100%; /* Adjust the width as needed */
   border-collapse: collapse;
@@ -43,7 +45,7 @@
   overflow-y: auto;
 }
 
-.info-table td {
+.info-tableNa td {
   padding: 8px;
   border: 1px solid black;
   width: 500px;
@@ -51,13 +53,13 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-.table-content {
+.table-contentNa {
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   color: #0346AA;
 }
 
-.action a{
+.action11 a{
   color:#0346AA;
   font-family: 'Times New Roman', Times, serif;
   text-decoration: underline;

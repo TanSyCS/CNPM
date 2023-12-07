@@ -6,20 +6,19 @@
   background-size: cover;
   box-sizing: border-box;
   align-items: center;
-  .login_box {
-    align-items: center;
-    width: 1300px;
-    height: 650px;
-    border-radius: 8%;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 150px;
-    margin-bottom: 200px;
-    background-color: #ffffff;
-    opacity: 80%;
-  }
+}
+.login_box {
+  align-items: center;
+  width: 1300px;
+  height: 650px;
+  border-radius: 8%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 200px;
+  background-color: #ffffff;
 }
 .headerLI {
   background-color: #ffffff;
@@ -82,5 +81,7 @@
   font-weight: bold;
 }
 .normal_text {
+  margin-top: 20px;
   color: black;
+  font-weight: bold;
 }

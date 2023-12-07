@@ -27,8 +27,9 @@ function SignupPage() {
     <div className="tcontainer">
       <div className="tboxSU">
         <div className="theaderSU">
+          <br></br>
           <Logo />
-          <div className="thText"> Đăng kí</div>
+          <div className="thText1"> Đăng kí</div>
         </div>
         <div className="trow">
           <div className="input">

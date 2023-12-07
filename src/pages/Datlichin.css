@@ -1,12 +1,12 @@
-.PrintSchedule {
+.print-process {
   flex-direction: column; 
 }
 
-.main-contentAA {
+.main-contentNaNa {
   display: flex;
   flex: 1; /* Allow the main content to grow and take remaining space */
 }
-.PrintScheduleViewerA {
+.PrintScheduleViewerNA {
   margin-top: 20px;
   margin-left: 100px;
   display: flex;
@@ -14,13 +14,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.PrintScheduleViewerA p{
+.PrintScheduleViewerNA p{
   font-family: 'Times New Roman', Times, serif;
   color: #0346AA;
   font-weight: bold;
   gap: 20px;
 }
-.info-tableNa1 {
+.info-tableNa12 {
   display: table;
 
   border-collapse: collapse;
@@ -28,44 +28,39 @@
   overflow-y: auto;
 }
 
-.info-tableNa1 td {
+.info-tableNa12 td {
   padding: 10px;
   width: 500px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.table-contentNa1 {
+.table-contentNa12 {
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   color: #0346AA;
 }
-.info-contentNa1 input{
-  text-align: center;
-}
-#p1{
+
+#p11{
   font-size: 40px;
 }
-#p2{
+#p21{
   font-size: 20px;
 }
-  .actionA button{
-    font-size: 18px;
-    color:#ffffff;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin: 0 150px;
-    border: none;
-    padding: 10px;
-  }
 
-  .actionA button:hover{
-    opacity: 0.8;
-  }
-    .actionA{
+.actionNNA{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 50px;
     align-items: center;
-  }
+    gap: 20px;
+}
+.actionNNA input{
+    padding: 6px 50px;
+}
+.actionNNA a{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0346AA;
+    margin-bottom: 70px;
+}
