@@ -154,19 +154,19 @@ export const HistoryBuyTemplate = () => {
 
   const generateDataForPage = (pageNumber) => {
     const startIndex = (pageNumber - 1) * 3;
-    if (startIndex == 0 || startIndex == 9)
+    if (startIndex === 0 || startIndex === 9)
       return [
         [`${startIndex + 1}`, "28/11/2023 09:11 am", "A3", "10", "Hoàn thành"],
         [`${startIndex + 2}`, "28/11/2023 10:11 am", "A4", "20", "Hoàn thành"],
         [`${startIndex + 3}`, "28/11/2023 11:11 am", "A4", "5", "Hoàn thành"],
       ];
-    if (startIndex == 3 || startIndex == 12)
+    if (startIndex === 3 || startIndex === 12)
       return [
         [`${startIndex + 1}`, "28/11/2023 14:11 am", "A3", "30", "Hoàn thành"],
         [`${startIndex + 2}`, "28/11/2023 15:11 am", "A3", "25", "Hoàn thành"],
         [`${startIndex + 3}`, "28/11/2023 16:11 am", "A3", "15", "Hoàn thành"],
       ];
-    if (startIndex == 6)
+    if (startIndex === 6)
       return [
         [`${startIndex + 1}`, "28/11/2023 10:11 am", "A4", "10", "Hoàn thành"],
         [`${startIndex + 2}`, "28/11/2023 11:11 am", "A4", "15", "Hoàn thành"],

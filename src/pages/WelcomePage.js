@@ -19,7 +19,7 @@ function WelcomePage() {
           <div id="id3WP">Chào mừng bạn đến với</div>
           <div id="id4WP">DỊCH VỤ IN ẤN SINH VIÊN HCMUT_SSPS</div>
         </div>
-        <div className="body_btWP">
+        <div className="tbody_bt">
           <button id="bt1WP">
             <a href="login" id="nText1">
               Đăng nhập
