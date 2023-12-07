@@ -112,8 +112,8 @@ function SignupPage() {
 
         <div className="tsubmits">
           <button className="tsubmit" id="tbt" onSubmit={handleRegister}>
-            {" "}
-            Đăng kí
+            <a href ='/login' className="theA">Đăng kí</a>
+            
           </button>
         </div>
         <div className="tsubmit">

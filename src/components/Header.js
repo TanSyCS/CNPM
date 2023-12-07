@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./Header.css";
-import { Dropdown, DropdownButton, DropdownMenu } from "react-bootstrap";
+import { Dropdown, DropdownButton, DropdownMenu,Image } from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -23,13 +23,23 @@ const Header = () => {
         <a href="/main-page/history-purch-page">Nhật ký</a>
       </div>
       <div className="header-right-section">
-        <a href="">
-          <img
-            className="header-icon"
-            src={require("../assets/images/ava.png")}
-            alt="Icon 1"
-          />
-        </a>
+      <Dropdown>
+          <Dropdown.Toggle variant="transparent" id="dropdown-basic" style={{ border: 'none', background: 'transparent' }}>
+            <Image
+              src={require("../assets/images/ava.png")}
+              roundedCircle
+              width="40"
+              height="40"
+            />
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            
+            <Dropdown.Item href="/main-page/stu-info" style={{ color: '#000000', background: 'transparent' }}>Thông tin cá nhân</Dropdown.Item>
+            <Dropdown.Divider />
+            <Dropdown.Item href="/login" style={{ color: '#000000', background: 'transparent' }}>Đăng xuất</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
         <p className="header-text">TRẦN NGUYỄN NAM ANH</p>
         <button className="header-btn">
           <img
