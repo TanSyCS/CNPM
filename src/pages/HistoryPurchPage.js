@@ -84,7 +84,7 @@ const HistoryPurchPage = () => {
               </div>
             </div>{' '}
           </div>{' '}
-          <div className="Table" style={{ marginTop: '46px' }}>
+          <div className="Table" style={{ marginTop: '46px', marginBottom: '15px' }}>
             <table>
               <thead>
                 <tr>
